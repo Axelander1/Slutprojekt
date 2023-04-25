@@ -1,0 +1,146 @@
+{
+    "monkey": [
+        {
+            "id": 0,
+            "name": "Chimpanzee",
+            "scientific": "Pan Troglodytes",
+            "summary": "Chimpanzees are one of our closest living relatives, sharing 98.7% of our DNA. These primates are found in the wild throughout the forests of equatorial Africa, including in countries such as Cameroon, Gabon, Congo, and Uganda. They are highly social animals, living in groups that can range from just a few individuals to more than 100.",
+            "characteristics": "Chimpanzees have a distinctive appearance, with a thick coat of black or brown hair covering most of their bodies. They are typically around 3-4 feet tall when standing upright, with males being larger than females. Male chimpanzees can weigh up to 200 pounds, while females usually weigh around 100 pounds. Chimpanzees have opposable thumbs and toes, which allow them to grasp and manipulate objects with incredible dexterity. Their arms are also longer than their legs, which gives them the ability to swing through trees, a behavior known as brachiation. They are also known for their vocalizations, with a variety of calls that are used to communicate with other members of their group.",
+            "diet": "Chimpanzees are omnivores, meaning they eat both plant and animal matter. They have a varied diet that can include fruit, leaves, insects, and even small mammals like monkeys. They have also been observed using tools to obtain food, such as using sticks to extract insects from crevices or using stones to crack open nuts.",
+            "behaviour": "Chimpanzees are social animals that live in groups, known as communities. These communities can range from a few individuals to over 100, depending on the area and the availability of resources. Within these communities, there is a complex social hierarchy, with dominant males usually leading the group. Chimpanzees are also known for their ability to use tools, such as using sticks to fish for termites or cracking nuts with rocks. They are highly intelligent and can even communicate using sign language.",
+            "conclusion": "In conclusion, chimpanzees are fascinating animals with a complex social structure and impressive cognitive abilities. They are found in a variety of habitats across central and western Africa and are under threat due to habitat destruction and human encroachment. It is important to protect these animals and their habitats to ensure their survival.",
+            "subspecies": [
+                {
+                    "Western Chimpanzees":"Western Chimpanzees (Pan troglodytes verus) are found in countries such as Guinea, Liberia, and Sierra Leone. They have lighter-colored fur on their face and chest and are known for their tool use, particularly their use of sticks to extract insects from crevices.",
+                    "Central Chimpanzees":"Central Chimpanzees (Pan troglodytes troglodytes) are found in Cameroon, Central African Republic, and Congo. They have shorter, darker fur than western chimpanzees and are known for their complex vocalizations.",
+                    "Eastern Chimpanzees":"Eastern Chimpanzees (Pan troglodytes schweinfurthii) are found in Kenya, Tanzania, and Uganda. They have a golden-brown fur on their back and are the largest chimpanzee subspecies, with males weighing up to 150 pounds.",
+                    "Bonobos":"Bonobos (Pan paniscus) are found only in the Democratic Republic of Congo. They have a slender build and a distinctive dark face with a parting in the middle. Bonobos are also known for their sexual behavior, which is more varied and frequent than other great apes."
+                }
+            ]
+        },
+        {
+            
+            "id": 1,
+            "name": "Gorilla",
+            "scientific": "Gorilla",
+            "summary": "Gorillas are the largest primates and are native to the forests of central and eastern Africa, including countries such as Rwanda, Uganda, and the Democratic Republic of Congo. There are two species of gorillas: the eastern gorilla and the western gorilla. They are highly intelligent and social animals that live in groups, known as troops.",
+            "characteristics": "Gorillas have a distinctive appearance, with a muscular body covered in black or dark brown hair. They are typically around 4-6 feet tall when standing upright, with males being larger than females. Male gorillas can weigh up to 400 pounds, while females usually weigh around 200 pounds. Gorillas have opposable thumbs and toes, which allow them to grasp and manipulate objects with incredible strength and dexterity. Their arms are also longer than their legs, which gives them the ability to move through trees, although they usually travel on the ground. Gorillas are also known for their vocalizations, including grunts, barks, and roars.",
+            "diet": "Gorillas are herbivores, meaning they eat mostly plants. They have a vegetarian diet that can include leaves, stems, fruits, and flowers. They have also been observed eating bark, insects, and even small mammals on occasion.",
+            "behaviour": "Gorillas are highly social animals that live in groups, known as troops. These troops can range in size from a few individuals to over 30, depending on the species and the availability of resources. Within these troops, there is a complex social hierarchy, with dominant males usually leading the group. Gorillas are also known for their tool use, such as using sticks to test the depth of water or breaking open nuts with rocks. They are highly intelligent and can even communicate using sign language.",
+            "conclusion": "In conclusion, gorillas are fascinating animals with a complex social structure and impressive cognitive abilities. They are found in a variety of habitats across central and eastern Africa and are under threat due to habitat destruction and poaching. It is important to protect these animals and their habitats to ensure their survival.",
+            "subspecies": [
+                {
+                    "Eastern Gorillas": "Eastern Gorillas (Gorilla beringei) are found in Rwanda, Uganda, and the Democratic Republic of Congo. There are two subspecies of eastern gorilla: the mountain gorilla and the eastern lowland gorilla. They have longer hair than western gorillas and a distinctively shaped head. Eastern gorillas are critically endangered, with only around 1,000 mountain gorillas and 5,000 eastern lowland gorillas remaining in the wild.",
+                    "Western Gorillas": "Western Gorillas (Gorilla gorilla) are found in Cameroon, Gabon, Congo, and Equatorial Guinea. There are two subspecies of western gorilla: the western lowland gorilla and the Cross River gorilla. They have shorter hair than eastern gorillas and a more rounded head. Western gorillas are also critically endangered, with only around 100,000 individuals remaining in the wild."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Orangutan",
+            "scientific": "Pongo pygmaeus",
+            "summary": "Orangutans are large primates that are native to the rainforests of Sumatra and Borneo. They are one of the most intelligent primates, sharing 97% of their DNA with humans. Orangutans are solitary animals, and adult males can weigh up to 200 pounds.",
+            "characteristics": "Orangutans have a shaggy, reddish-brown coat of fur that covers most of their bodies. They have a distinctive, long, and powerful arms that can reach up to twice their body length. They are also known for their distinctive facial features, including their large cheeks and forehead. Orangutans have opposable thumbs and toes, which allow them to grasp and manipulate objects with incredible dexterity.",
+            "diet": "Orangutans are primarily herbivorous, meaning they eat mainly fruits, leaves, flowers, and bark. They have also been known to eat insects, birds' eggs, and small animals like lizards and rodents.",
+            "behavior": "Orangutans are solitary animals that spend most of their time in trees. They are highly intelligent and can make and use tools, such as using sticks to extract insects from crevices or using leaves as shelter from the rain. They are also known for their vocalizations, with a variety of calls that are used to communicate with other orangutans. Adult males are territorial and will defend their territory from other males.",
+            "conclusion": "In conclusion, orangutans are fascinating animals with a unique appearance and impressive cognitive abilities. They are under threat due to habitat destruction and human encroachment. It is important to protect these animals and their habitats to ensure their survival.",
+            "subspecies": [
+              {
+                "Sumatran Orangutans": "Sumatran Orangutans (Pongo abelii) are found only on the island of Sumatra in Indonesia. They have a darker coat of fur than Bornean orangutans and a longer face.",
+                "Bornean Orangutans": "Bornean Orangutans (Pongo pygmaeus) are found on the island of Borneo in Southeast Asia. They have a lighter coat of fur than Sumatran orangutans and a shorter face."
+              }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Gibbon",
+            "scientific": "Hylobatidae",
+            "summary": "Gibbons are small apes found in the forests of Southeast Asia. They are known for their long arms and fingers, which they use to brachiate through the trees. They are highly social animals and typically live in monogamous pairs or small family groups.",
+            "characteristics": "Gibbons have a slender build with long, agile arms and legs. They have a distinctive call, which they use to communicate with other members of their group. Their coat can range in color from black to light brown, and they have a hairless face with prominent eyebrows.",
+            "diet": "Gibbons are omnivores and have a varied diet that includes fruit, leaves, insects, and small animals. They are also known to occasionally eat eggs and birds.",
+            "behaviour": "Gibbons are highly social animals and live in monogamous pairs or small family groups. They have a complex vocal repertoire and use vocalizations to communicate with other members of their group. They also use body language to communicate, such as raising their eyebrows or slapping their chest. Gibbons are known for their acrobatic abilities and can leap up to 30 feet through the trees.",
+            "conclusion": "In conclusion, Gibbons are fascinating apes with a unique appearance and social structure. They are threatened by habitat loss and hunting, and it is important to protect them and their habitats to ensure their survival.",
+            "subspecies": [
+                {
+                    "Siamang":"Siamangs (Symphalangus syndactylus) are the largest of the Gibbons and are found in Indonesia and Malaysia. They have black fur and a distinctive throat sac, which they use to amplify their calls.",
+                    "Lar Gibbon":"Lar Gibbons (Hylobates lar) are found throughout Southeast Asia. They have a light-colored fur with a black face and hands.",
+                    "White-handed Gibbon":"White-handed Gibbons (Hylobates lar) are also found in Southeast Asia. They have white fur on their hands and feet and a black face.",
+                    "Hoolock Gibbon":"Hoolock Gibbons (Hoolock spp.) are found in northeastern India, Bangladesh, and Myanmar. They have a lighter-colored fur than other Gibbons and a distinctive brow ridge."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Capuchin",
+            "scientific": "Sapajus",
+            "summary": "Capuchin monkeys are a genus of New World monkeys that are native to Central and South America. They are often seen in zoos and used in scientific research due to their high intelligence and ability to learn complex tasks.",
+            "characteristics": "Capuchin monkeys have a distinctive appearance, with a tuft of hair on their head that looks like a cap, hence their name. They have a short, coarse fur that can be either brown or black in color. They are relatively small, with a length of around 12-22 inches and a weight of 3-9 pounds. Capuchin monkeys have opposable thumbs, which allows them to grasp and manipulate objects with great dexterity. They are also known for their long tails, which they use for balance when moving through the trees.",
+            "diet": "Capuchin monkeys are omnivorous and eat a variety of foods including fruit, nuts, insects, and small animals like lizards and birds. They are also known to use tools to obtain food, such as using sticks to extract insects from crevices or using stones to crack open nuts.",
+            "behaviour": "Capuchin monkeys are highly social animals and live in groups that can range from 8 to 40 individuals. Within the group, there is a complex social hierarchy, with dominant males usually leading the group. Capuchin monkeys are known for their high intelligence and ability to learn complex tasks. They have been used in scientific research to study tool use, problem-solving, and even abstract reasoning. They are also trained as service animals to assist people with disabilities.",
+            "conclusion": "In conclusion, Capuchin monkeys are highly intelligent animals with a distinctive appearance and complex social structure. They are native to Central and South America and are threatened by habitat loss and hunting. It is important to protect these animals and their habitats to ensure their survival.",
+            "subspecies": [
+                {
+                    "Tufted Capuchin":"Tufted Capuchins (Sapajus apella) are found in the rainforests of South America. They have a distinctive tuft of hair on their head that looks like a cap, hence their name. They are known for their intelligence and are often used in scientific research to study tool use and problem-solving.",
+                    "Weeping Capuchin":"Weeping Capuchins (Sapajus spurius) are found in Central and South America. They are named for their distinctive vocalization that sounds like a crying baby. They are highly social animals and live in large groups.",
+                    "Robust Tufted Capuchin":"Robust Tufted Capuchins (Sapajus robustus) are found in Brazil. They have a more robust skull and larger teeth than other capuchin species. They are also known for their use of stone tools to crack open nuts.",
+                    "Wedge-Capped Capuchin":"Wedge-Capped Capuchins (Sapajus nigritus) are found in Brazil, Paraguay, and Argentina. They have a distinctive wedge-shaped cap of hair on their head and are known for their intelligence and problem-solving abilities."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Squirrel Monkey",
+            "scientific": "Saimiri",
+            "summary": "Squirrel monkeys are small primates that are native to the tropical forests of Central and South America. They are known for their small size, agile movements, and playful behavior. Squirrel monkeys are highly social animals, living in large groups of up to 100 individuals.",
+            "characteristics": "Squirrel monkeys have a distinctive appearance, with a short, furry coat that can range in color from gray to brown. They are small, typically weighing only 1-2 pounds and measuring around 10-14 inches in length. Squirrel monkeys have long, slender limbs that are well-suited for jumping and climbing, and they have excellent vision and hearing that helps them to navigate their environment.",
+            "diet": "Squirrel monkeys are omnivores, meaning they eat both plant and animal matter. Their diet consists primarily of fruits and insects, but they may also eat flowers, leaves, and small vertebrates.",
+            "behaviour": "Squirrel monkeys are highly social animals that live in large groups called troops. These troops are typically made up of several adult males and females, as well as their offspring. Within these troops, there is a complex social hierarchy, with dominant individuals having priority access to resources such as food and mating partners. Squirrel monkeys are also known for their playful behavior, engaging in activities such as chasing and wrestling with one another.",
+            "conclusion": "In conclusion, squirrel monkeys are fascinating animals with a complex social structure and unique behavioral characteristics. They are found in a variety of habitats across Central and South America and play an important role in the ecosystem as seed dispersers and pollinators. However, like many other primates, they are under threat due to habitat loss and hunting. It is important to protect these animals and their habitats to ensure their survival.",
+            "subspecies": [
+                {
+                    "Common Squirrel Monkey": "The Common Squirrel Monkey (Saimiri sciureus) is the most widespread of the squirrel monkey species, found throughout Central and South America. They have a grayish-brown coat and a white or yellowish underbelly.",
+                    "Bolivian Squirrel Monkey": "The Bolivian Squirrel Monkey (Saimiri boliviensis) is found only in Bolivia and parts of Brazil and Peru. They have a darker coat than the common squirrel monkey, with a reddish-brown back and a black face.",
+                    "Black-capped Squirrel Monkey": "The Black-capped Squirrel Monkey (Saimiri boliviensis boliviensis) is a subspecies of the Bolivian Squirrel Monkey found in the Amazon Basin. They have a black cap on their head, which gives them their name.",
+                    "Central American Squirrel Monkey": "The Central American Squirrel Monkey (Saimiri oerstedii) is found in Central America, ranging from Honduras to Panama. They have a grayish-brown coat and a white or yellowish underbelly, similar to the common squirrel monkey."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Macaque",
+            "scientific": "Macaca",
+            "summary": "Macaques are a genus of Old World monkeys that are found throughout Asia, including countries such as Japan, China, and India. There are 23 different species of macaques, which range in size from the tiny pig-tailed macaque, weighing only 2-3 pounds, to the larger Tibetan macaque, which can weigh up to 100 pounds. Macaques are highly adaptable and can be found in a variety of habitats, including forests, mountains, and even cities.",
+            "characteristics": "Macaques have a distinctive appearance, with a short tail and a wide face. They have a dense fur that can range from gray to brown or even golden. Their arms and legs are of equal length, and their fingers and toes are elongated and have opposable thumbs, which allow them to grasp objects with precision. Macaques have a unique social structure, with females dominating the group and males often leaving to join other groups.",
+            "diet": "Macaques are omnivores, eating a variety of foods depending on their habitat and location. They eat fruit, leaves, insects, and small animals, including lizards and rodents. They are also known to forage for food in urban areas, such as garbage cans.",
+            "behaviour": "Macaques live in groups, called troops, which can range from a few individuals to over 100. Within the troop, there is a strict social hierarchy, with dominant females leading the group. Macaques are also known for their intelligence and have been observed using tools to obtain food or solve problems. They communicate with each other through a range of vocalizations and body language.",
+            "conclusion": "In conclusion, macaques are adaptable and intelligent primates found throughout Asia. They have a unique social structure, are omnivorous, and are known for their tool use and problem-solving abilities. Macaques face threats from habitat loss and hunting, and it is important to protect them and their habitats to ensure their survival.",
+            "subspecies": [
+                {
+                    "Japanese Macaque": "The Japanese macaque, also known as the snow monkey, is found on the islands of Honshu, Shikoku, and Kyushu in Japan. They are known for their habit of bathing in hot springs during the winter and have a distinctive reddish face.",
+                    "Rhesus Macaque": "The rhesus macaque is found throughout India and parts of China. They have a light brown fur and a distinctive pink face. They are often used in medical research due to their close genetic relationship to humans.",
+                    "Pig-Tailed Macaque": "The pig-tailed macaque is found in Southeast Asia, including countries such as Thailand and Indonesia. They have a short tail, a black face, and a tuft of hair on their head that resembles a pigtail.",
+                    "Bonnet Macaque": "The bonnet macaque is found in southern India. They have a gray-brown fur and a distinctive tuft of hair on their head that resembles a bonnet."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Baboon",
+            "scientific": "Papio",
+            "summary": "Baboons are a genus of Old World monkeys that are found in Africa and Arabia. They are highly adaptable and are able to live in a variety of habitats, including grasslands, savannas, and forests. Baboons are known for their distinctive appearance, which includes a long snout and a dog-like muzzle. They are also highly social animals, living in large groups that can range from just a few individuals to several hundred.",
+            "characteristics": "Baboons are medium-sized primates that can range in size from 20-50 inches in length and weigh up to 100 pounds. They have a thick coat of fur that can range in color from yellow to brown to gray, and they have a hairless face. Baboons have a long, curved tail that helps them balance when they are climbing or moving along the ground. They also have opposable thumbs and toes, which allows them to grasp objects with incredible dexterity.",
+            "diet": "Baboons are omnivores and eat a variety of foods, including fruits, vegetables, insects, and small mammals. They are known for their ability to raid crops and are considered a pest in many areas. However, they also play an important role in their ecosystem by helping to disperse seeds and control insect populations.",
+            "behavior": "Baboons are highly social animals that live in large groups, known as troops. These troops can range in size from just a few individuals to several hundred and are typically led by a dominant male. Baboons communicate with each other using a variety of vocalizations and body language. They are also known for their aggressive behavior, particularly towards other baboons and predators.",
+            "conclusion": "In conclusion, baboons are fascinating animals with a distinctive appearance and complex social structure. They play an important role in their ecosystem but can also be considered a pest in some areas. It is important to manage their populations in a way that balances their ecological importance with their potential impact on human activities.",
+            "subspecies": [
+                {
+                    "Chacma Baboon": "The Chacma Baboon (Papio ursinus) is found in southern Africa and is the largest of all baboon species, with males weighing up to 100 pounds. They have a dark brown coat and a distinctive, hairless face. Chacma baboons live in large troops that can number in the hundreds.",
+                    "Olive Baboon": "The Olive Baboon (Papio anubis) is found in central and eastern Africa and is one of the most widely distributed baboon species. They have a yellow-brown coat and a distinctive dark face. Olive baboons live in large, hierarchical troops that are led by a dominant male.",
+                    "Yellow Baboon": "The Yellow Baboon (Papio cynocephalus) is found in eastern Africa and is known for its yellow-brown coat and distinctive hairless face. They live in large troops that can range in size from 10 to 200 individuals and are led by a dominant male.",
+                    "Hamadryas Baboon": "The Hamadryas Baboon (Papio hamadryas) is found in the Horn of Africa and the Arabian Peninsula. They are distinctive for their long, upright mane of hair and their complex social structure, which includes large harems of females that are guarded by a single male."
+                }
+    ]
+        }
+        
+    ]
+}
