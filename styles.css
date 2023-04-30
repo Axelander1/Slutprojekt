@@ -24,7 +24,7 @@ a{
     font-size: 60px;
     padding: 1% 5% 1% 5%;
     border-radius: 20px;
-    margin-top: -16%;
+    margin-top: -20%;
     background-color: white;
 }
 
@@ -44,10 +44,6 @@ a{
     z-index: 1;
 }
 
-#search-toggle-button {
-
-}
-
 
 #searchbar-container {
     position: fixed;
@@ -55,16 +51,57 @@ a{
     left: 35%;
 
     width: 30%;
-    height: 30px;
+
+    display: flex;
+        align-items: center;
+        flex-direction: column;
     
 }
 
 #searchbar {
     width: 100%;
-    height: 100%;
+    height: 30px;
     padding: 1%;
     border-radius: 16px;
     font-size: 1.2rem;  
+
+    z-index: 0;
+}
+
+#searchbar-result-container {
+    position: fixed;
+    top: 5.6%;
+    left: 36%;
+
+    width: 29.75%;
+
+    z-index: 3;
+}
+
+.search-result {
+    background-color: white;
+    width: 94%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 4%;
+
+    border-radius: 0px 0px 10px 10px
+}
+
+.search-result-text-container {
+    margin-top: 1%;
+}
+
+.search-result-text-container h3, .search-result-text-container h5 {
+    margin: 0;
+    color: black;
+}
+
+.search-result-image {
+    width: 125px;
+    border-radius: 0px 0px 0px 10px;
 }
 
 .nav-icon {
@@ -74,9 +111,12 @@ a{
     padding: 2%;
 }
 
+.nav-icon-container{
+    
+}
 
 #category-container {
-    margin-top: 10%;
+    margin-top: 16%;
 
     display: flex;
     justify-content: center;
@@ -89,6 +129,8 @@ a{
     border-radius: 12px;
     border-width: 2px;
     margin-top: 1%;
+
+    
 }
 
 #category-card-container {
@@ -96,8 +138,8 @@ a{
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 1px;
+    justify-content: center;
+    gap: 10px;
 }
 
 .card-text {
@@ -148,8 +190,9 @@ a{
     justify-content: space-between;
 }
 
-#info-bottom-row {
-    width: 80%;
+#information-container {
+    width: 90%;
+    margin-left: 0.5%;
 }
 
 #rotatingGlobe {
@@ -170,4 +213,15 @@ a{
     height: 120px;
     background-color: rgb(246, 246, 246);
     margin-top: 4%;
+}
+
+@media screen and (max-width: 600px) {
+    #front-text {
+        font-size: 40px;
+        margin-top: -20%;
+    }
+
+    #front-image {
+        
+    }
 }

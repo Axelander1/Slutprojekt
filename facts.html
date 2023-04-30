@@ -7,26 +7,20 @@
     <link rel="stylesheet" href="styles.css">
     <title>Monkey Facts</title>
 
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <script src='topojson.js'></script>
-    
-    <script src ="planetaryjs.js"></script>
-    <script src="script.js"></script>
-    <script src="planetaryScript.js"></script>
-
+ 
 </head>
 <body class = "facts">
     <!-- Skapar navigationsknappar -->
     <div id = "nav-buttons">
         <a class = "nav-icon-container" href = "index.html"><img class = "nav-icon" src ="Images/iconmonstr-home-6-240(1).png" alt = "Home"></a>
         <a class = "nav-icon-container" href = "globe.html"><img class = "nav-icon" src ="Images/iconmonstr-globe-5-240.png" alt = "Home"></a>
-        <button id = "search-toggle-button" class = "nav-icon-container" ><img class = "nav-icon" src ="Images/iconmonstr-magnifier-4-240.png" alt = "Home"></button>
     </div>
 
     <!-- Skapar sökfunktionen -->
     <div id = "searchbar-container"> 
         <input type="search" id="searchbar">
     </div>
+    <div id = "searchbar-result-container"></div>
 
     <!-- Inom denna finns bilden, globen och texten. -->
     <!-- info-container används för att positionera info-outline, och info-outline innehåller alla andra delar-->
@@ -38,19 +32,7 @@
                 <canvas id = "rotatingGlobe"></canvas>
             </div>
 
-            <div id = "info-bottom-row">
-                <div class = "text-category">
-                    <h4 class = "text-category-title"></h4>
-                    <p class = "text-category-text"></p>
-                </div>
-                <div class = "text-category">
-                    <h4 class = "text-category-title"></h4>
-                    <p class = "text-category-text"></p>
-                </div>
-                <div class = "subspecies-container">
-                    <h3 class = "subspecies-title"></h3>
-                    
-                </div>
+            <div id = "information-container">
             
             </div>
         </div>
@@ -58,6 +40,8 @@
     </div>
 
 
-
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
