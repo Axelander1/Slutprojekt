@@ -7,7 +7,17 @@
     <link rel="stylesheet" href="styles.css">
     <title>Monkey Facts</title>
 
- 
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+    {
+        "imports": {
+        "three": "https://unpkg.com/three@0.152.2/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@v0.152.2/examples/jsm/"
+        }
+    }
+    </script>
+
 </head>
 <body class = "facts">
     <!-- Skapar navigationsknappar -->
@@ -29,7 +39,7 @@
             
             <div id = "info-top-row">
                 <img id="monkey-image" src = "Images/chimp-animal-zoo-monkey-wallpaper-preview.jpg">
-                <canvas id = "rotatingGlobe"></canvas>
+                <canvas id = "rotating-globe"></canvas>
             </div>
 
             <div id = "information-container">
@@ -43,5 +53,6 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="script.js"></script>
+    <script src ="globe.js" type = "module"></script>
 </body>
 </html>

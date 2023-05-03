@@ -137,7 +137,7 @@ function fillPage(data) {
     var chosenMonkey = localStorage.getItem("monkey");
     console.log(chosenMonkey);
 
-
+    var subspecies = "Hej hej"
 
     data.monkey.forEach(monkey => {
       if(chosenMonkey == monkey.name) {
@@ -160,7 +160,7 @@ function fillPage(data) {
           <p class = "text-category-text">${monkey.behaviour}</p>
         </div>
         <div class = "subspecies-container">
-
+         
           <h3 class = "subspecies-title">Subspecies</h3>
           <h5 class = "subspecies-name></h5>
         </div>

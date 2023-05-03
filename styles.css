@@ -8,7 +8,7 @@ a{
 }
 
 .facts {
-    background-image: url("images/robin-canfield-1JvZeqNd5vI-unsplash-copy.jpg")
+    background-image: url("./Images/robin-canfield-1JvZeqNd5vI-unsplash-copy.jpg")
 }
 #front-container {
     /*background-image: url("robin-canfield-1JvZeqNd5vI-unsplash.jpg");*/
@@ -187,6 +187,7 @@ a{
 
 #info-top-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -195,15 +196,16 @@ a{
     margin-left: 0.5%;
 }
 
-#rotatingGlobe {
-    background-color: rgb(246, 246, 246);
-    width: 600px;
-    height: 300px;
+#rotating-globe {
+    background-color: white;
+    width: 800px;
+    height: 400px;
     cursor: move;
 }
 
 #monkey-image {
-    max-width: 40%;
+    max-width: 500px;
+    max-height: auto;
 }
 
 
