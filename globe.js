@@ -4,16 +4,18 @@ import { OrbitControls } from 'https://unpkg.com/three@v0.152.2/examples/jsm/con
 
 const scene = new THREE.Scene();
 
-const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 1, 1000);
+const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerWidth, 1, 1000);
 
 const renderer = new THREE.WebGLRenderer({
     canvas: document.querySelector("#rotating-globe"),
+    antialias: true,
 });
 
 renderer.setPixelRatio(window.devicePixelRatio);
-renderer.setSize(window.innerWidth*0.45, 330);
+renderer.setSize(window.innerWidth*0.24, window.innerWidth*0.24);
 renderer.setClearColor( 0xffffff, 0);
-camera.position.setZ(30);
+camera.position.setZ(150);
+camera.aspect = window.innerWidth / window.innerWidth;
 
 renderer.render(scene, camera)
 
@@ -45,6 +47,23 @@ renderer.domElement.addEventListener('mousedown', () => {
 renderer.domElement.addEventListener('mouseup', () => {
   mouseDown = false;
 });
+
+
+window.addEventListener("resize", () => {
+  resizeRendererToDisplaySize(renderer);
+  camera.aspect = window.innerWidth / window.innerWidth;
+  camera.updateProjectionMatrix();
+});
+
+function resizeRendererToDisplaySize(renderer) {
+  const canvas = renderer.domElement;
+  const width = window.innerWidth * 0.45;
+  const height = window.innerWidth * 0.45;
+  const needResize = canvas.width !== width || canvas.height !== height;
+  if (needResize) {
+    renderer.setSize(width, height, false);
+  }
+}
 
 
 function animate() {

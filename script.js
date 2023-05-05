@@ -130,7 +130,8 @@ function searchFunction() {
 
 
 function fillPage(data) {
-  var informationContainer = document.querySelector("#information-container")
+  var informationContainer = document.querySelector("#information-text-container")
+  var titleContainer = document.querySelector("#monkey-title")
   console.log(data)
 
   if (informationContainer) {
@@ -141,6 +142,9 @@ function fillPage(data) {
 
     data.monkey.forEach(monkey => {
       if(chosenMonkey == monkey.name) {
+
+        titleContainer.innerHTML = `
+        <h1>${monkey.name}</h1>`
 
         informationContainer.innerHTML = `
         <div class = "text-category">
@@ -159,20 +163,43 @@ function fillPage(data) {
           <h4 class = "text-category-title">Behaviour</h4>
           <p class = "text-category-text">${monkey.behaviour}</p>
         </div>
-        <div class = "subspecies-container">
-         
-          <h3 class = "subspecies-title">Subspecies</h3>
-          <h5 class = "subspecies-name></h5>
+        <div id = "subspecies-container">
+        <h3 class = "subspecies-title">Subspecies</h3>
         </div>
         <div class = "text-category">
           <h4 class = "text-category-title">Conclusion</h4>
           <p class = "text-category-text">${monkey.conclusion}</p>
         </div>
         `
+
+       
+        var subspeciesData = monkey.subspecies
+
+        var subspeciesKey = Object.keys(subspeciesData[0])
+        var subspeciesValues = Object.values(subspeciesData[0])
+
+        console.log(subspeciesKey, subspeciesValues)
+        
+
+        
+
+        subspeciesContainer = document.getElementById("subspecies-container")
+        for (let i = 0; i < subspeciesKey.length; i++) {
+          subspeciesContainer.innerHTML += `
+          <h4>${subspeciesKey[i]}</h4>
+          <p>${subspeciesValues[i]}</p>
+          
+          `
+
+
+        }
+
+            
+          
+        }})
       }
-    })
-  }
-}
+    }
+  
 
 
 
