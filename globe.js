@@ -80,7 +80,7 @@ function resizeRenderer(renderer) {
 function animate() {
     requestAnimationFrame (animate);
     if (!mouseDown) {
-        globe.rotation.y += 0.004
+        globe.rotation.y += 0.0012
     }
     
 

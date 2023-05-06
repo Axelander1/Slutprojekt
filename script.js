@@ -112,15 +112,17 @@ function searchFunction() {
     }
   });
 
+  
+
   var searchResults = searchResultContainer.childNodes
   var searchResultName = document.querySelectorAll(".name")
+
   for (let i = 0; i < (searchResultContainer.childElementCount); i++) {
-    console.log(searchResultName)
     var item = apesFound.indexOf(searchResultName)
     apesFound.splice(item, 1)
+
     var currentName = searchResultName[i].textContent.toLowerCase()
     if (currentName.includes(searchbarText.toLowerCase()) == false) {
-      console.log("bertil")
       searchResultContainer.removeChild(searchResults[i])
     }
   }
