@@ -49,6 +49,8 @@ h1{
     display: flex;
     justify-content: space-between;
 
+    
+
     z-index: 1;
 }
 
@@ -56,7 +58,7 @@ h1{
 #searchbar-container {
     position: fixed;
     top: 2%;
-    left: 35%;
+    left: 34.5vw;
 
     width: 30%;
     min-width: 250px;
@@ -119,11 +121,10 @@ h1{
     background-color: white;
     border-radius: 100%;
     padding: 2%;
-}
 
-.nav-icon-container{
     
 }
+
 
 #category-container {
     margin-top: 16%;
@@ -135,11 +136,18 @@ h1{
 .card-container {
     border-radius: 12px;
     margin-top: 1%;
-    background-color: rgb(237, 236, 236);
+    background-color: rgb(254, 254, 254);
+
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.375);
+    
     padding: 0.5%;
-    padding-bottom: 2%;
 
     /*filter: drop-shadow(2px 2px 4px rgba(34, 34, 34, 0.664))*/
+}
+
+.card-container:hover {
+    transition: 0.2s;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.697);
 }
 
 #category-card-container {
@@ -191,18 +199,21 @@ h1{
     width: 90%;
     padding: 1%;
     border-radius: 10px;
-    margin-top: 6%;
+    margin-top: 86px;
     justify-content: center;
+    margin-bottom: 6%;
 }
 
-#subspecies-container {
-    margin-left: 2%;
-}
+
 
 #info-top-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 2%;
+
+    width: 100%;
+    height: auto;
 }
 
 #information-text-container {
@@ -210,21 +221,62 @@ h1{
     margin-left: 0.5%;
 }
 
+#information-text-container p {
+    margin-top: 0;
+    margin-left: 2px;
+}
+
+#information-text-container h4 {
+    margin-bottom: 4px;
+    margin-left: 2px;
+}
+
+#subspecies-container p {
+    margin-left: 16px;
+}
+
+#subspecies-container h4 {
+    margin-left: 16px;
+}
+
 #rotating-globe {
     background-color: white;
    
     cursor: move;
-
-    width: 40%;
     margin-right: 1%;
+    margin-top: 1%;
 }
 
 #monkey-image {
-    width: 40%;
+    width: 100%;
     height: fit-content;
     border-radius: 10px;
 }
 
+#image-column {
+    width: 37.5%;
+    min-width: 500px;
+}
+
+#image-column h1 {
+    margin: 0;
+}
+
+#image-column h3 {
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+#globe-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#globe-column p {
+    font-size: 0.6rem;
+}
 
 
 #footer {
@@ -232,6 +284,24 @@ h1{
     height: 120px;
     background-color: rgb(246, 246, 246);
     margin-top: 4%;
+}
+
+@media screen and (max-width: 1000px) {
+    #info-top-row {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #image-column {
+        width: 90%;
+        min-width: 0px;
+
+    }
+
+    #monkey-image {
+        width: 100%;
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {

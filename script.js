@@ -131,7 +131,8 @@ function searchFunction() {
 
 function fillPage(data) {
   var informationContainer = document.querySelector("#information-text-container")
-  var titleContainer = document.querySelector("#monkey-title")
+  var title = document.querySelector("#monkey-title")
+  var scientificName = document.querySelector("#monkey-title-scientific")
   console.log(data)
 
   if (informationContainer) {
@@ -143,8 +144,8 @@ function fillPage(data) {
     data.monkey.forEach(monkey => {
       if(chosenMonkey == monkey.name) {
 
-        titleContainer.innerHTML = `
-        <h1>${monkey.name}</h1>`
+        title.innerHTML = monkey.name
+        scientificName.innerHTML = monkey.scientific
 
         informationContainer.innerHTML = `
         <div class = "text-category">

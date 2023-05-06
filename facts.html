@@ -35,23 +35,22 @@
     <!-- info-container används för att positionera info-outline, och info-outline innehåller alla andra delar-->
     <div id = "info-container">
         <div id = "info-outline">
-
-            <div id = "monkey-title"></div>
-            
             <div id = "info-top-row">
-                <img id="monkey-image" src = "Images/chimp-animal-zoo-monkey-wallpaper-preview.jpg" alt = "The ape">
-                <canvas id = "rotating-globe"></canvas>
+                <div id = "image-column">
+                    <h1 id = "monkey-title"></h1>
+                    <h3 id = "monkey-title-scientific"></h3>
+                    <img id="monkey-image" src = "Images/chimp-animal-zoo-monkey-wallpaper-preview.jpg" alt = "The ape">
+                </div>   
+                <div id = "globe-column">
+                    <canvas id = "rotating-globe"></canvas>
+                    <p>Areas that this species inhabits are marked in green</p>
+                </div>           
             </div>
 
             <div id = "information-text-container"></div>
         </div>
         
     </div>
-
-    <footer id = "footer">
-
-    </footer>
-
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="script.js"></script>

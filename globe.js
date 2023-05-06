@@ -12,7 +12,13 @@ const renderer = new THREE.WebGLRenderer({
 });
 
 renderer.setPixelRatio(window.devicePixelRatio);
-renderer.setSize(window.innerWidth*0.24, window.innerWidth*0.24);
+if (window.innerWidth > 1200) {
+  renderer.setSize(window.innerWidth*0.27, window.innerWidth*0.27);
+}
+else {
+  renderer.setSize(window.innerWidth*0.8, window.innerWidth*0.8)
+}
+
 renderer.setClearColor( 0xffffff, 0);
 camera.position.setZ(150);
 camera.aspect = window.innerWidth / window.innerWidth;
@@ -35,7 +41,7 @@ pointLight.position.set(10000, 50, 100)
 scene.add(pointLight)
 
 const controls = new OrbitControls(camera, renderer.domElement);
-controls.maxDistance = 300;
+controls.maxDistance = 150;
 controls.minDistance = 70;
 controls.enablePan = false;
 
@@ -50,18 +56,23 @@ renderer.domElement.addEventListener('mouseup', () => {
 
 
 window.addEventListener("resize", () => {
-  resizeRendererToDisplaySize(renderer);
+  resizeRenderer(renderer);
   camera.aspect = window.innerWidth / window.innerWidth;
   camera.updateProjectionMatrix();
 });
 
-function resizeRendererToDisplaySize(renderer) {
+function resizeRenderer(renderer) {
+  console.log("resizing")
   const canvas = renderer.domElement;
-  const width = window.innerWidth * 0.45;
-  const height = window.innerWidth * 0.45;
+  const width = window.innerWidth;
+  const height = window.innerWidth;
+  console.log(width)
   const needResize = canvas.width !== width || canvas.height !== height;
-  if (needResize) {
-    renderer.setSize(width, height, false);
+  if (needResize && width <= 1000) {
+    renderer.setSize(window.innerWidth*0.8, window.innerWidth*0.8);
+  }
+  else if (needResize) {
+    renderer.setSize(window.innerWidth * 0.27, window.innerWidth * 0.27)
   }
 }
 
@@ -69,7 +80,7 @@ function resizeRendererToDisplaySize(renderer) {
 function animate() {
     requestAnimationFrame (animate);
     if (!mouseDown) {
-        globe.rotation.y += 0.005
+        globe.rotation.y += 0.004
     }
     
 
