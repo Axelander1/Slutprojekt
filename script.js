@@ -134,7 +134,13 @@ function searchFunction() {
 
   for (let i = 0; i < searchResultContainer.childElementCount; i++) {
     if (i == 0) {
-      currentSearchResultChildElements[i].style.borderRadius = "10px 10px 0px 0px"
+      if (searchResultContainer.childElementCount == 1) {
+        currentSearchResultChildElements[i].style.borderRadius = "10px"
+      }
+      else {
+        currentSearchResultChildElements[i].style.borderRadius = "10px 10px 0px 0px"
+      }
+      
     }
     else if (i < searchResultContainer.childElementCount-1) {
       currentSearchResultChildElements[i].style.borderRadius = "0px"
