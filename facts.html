@@ -22,6 +22,10 @@
 </head>
 <body class = "facts">
     <!-- Skapar navigationsknappar -->
+
+    <div id = "globe-large-container">
+        <canvas id = "globe-large"></canvas>
+    </div>
     
     <a id = "nav-buttons" href = "index.html"><img class = "nav-icon" src ="Images/iconmonstr-home-6-240(1).png" alt = "Home"></a>
     
@@ -41,17 +45,12 @@
     <div id = "main">
         <div id = "info-container">
             <div id = "info-top-row">
-                <!--Innehåller bilden av apan-->
-                <div id = "image-column">
-                    <h1 id = "monkey-title"></h1>
-                    <h3 id = "monkey-title-scientific"></h3>
-                    <!--Bildens source fylls på när sidan laddas-->
-                    <img id="monkey-image" src = "" alt = "The ape">
-                </div>   
+                <!--Kolumen fylls på med bilden och titeln med JS-->
+                <div id = "image-column"></div>   
                 <!--Kolumnen i vilken jag har globens canvas och förklarande text under denna-->
                 <div id = "globe-column">
                     <canvas id = "rotating-globe"></canvas>
-                    <p>Areas that this species inhabits are marked in green</p>
+                    <p>Countries with large populations of this species are marked in green</p>
                 </div>           
             </div>
 

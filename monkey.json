@@ -17,7 +17,7 @@
                     "Bonobos":"Bonobos (Pan paniscus) are found only in the Democratic Republic of Congo. They have a slender build and a distinctive dark face with a parting in the middle. Bonobos are also known for their sexual behavior, which is more varied and frequent than other great apes."
                 }
             ],
-            "image": "Images/Chimpanzee.jpg",
+            "image": "Images/Chimpanzee.webp",
             "globeTexture": "Images/ChimpanzeeGlobe.png"
         },
         {
@@ -36,7 +36,7 @@
                     "Western Gorillas": "Western Gorillas (Gorilla gorilla) are found in Cameroon, Gabon, Congo, and Equatorial Guinea. There are two subspecies of western gorilla: the western lowland gorilla and the Cross River gorilla. They have shorter hair than eastern gorillas and a more rounded head. Western gorillas are also critically endangered, with only around 100,000 individuals remaining in the wild."
                 }
             ],
-            "image": "Images/Gorilla.jpg",
+            "image": "Images/Gorilla.webp",
             "globeTexture": "Images/GorillaGlobe.png"
         },
         {
@@ -54,7 +54,7 @@
                 "Bornean Orangutans": "Bornean Orangutans (Pongo pygmaeus) are found on the island of Borneo in Southeast Asia. They have a lighter coat of fur than Sumatran orangutans and a shorter face."
               }
             ],
-            "image": "Images/Orangutan.jpg",
+            "image": "Images/Orangutan.webp",
             "globeTexture": "Images/OrangutanGlobe.png"
         },
         {
@@ -74,7 +74,7 @@
                     "Hoolock Gibbon":"Hoolock Gibbons (Hoolock spp.) are found in northeastern India, Bangladesh, and Myanmar. They have a lighter-colored fur than other Gibbons and a distinctive brow ridge."
                 }
             ],
-            "image": "Images/Gibbon.jpg",
+            "image": "Images/Gibbon.webp",
             "globeTexture": "Images/GibbonGlobe.png"
         },
         {
@@ -94,7 +94,7 @@
                     "Wedge-Capped Capuchin":"Wedge-Capped Capuchins (Sapajus nigritus) are found in Brazil, Paraguay, and Argentina. They have a distinctive wedge-shaped cap of hair on their head and are known for their intelligence and problem-solving abilities."
                 }
             ],
-            "image": "Images/Capuchin.jpg",
+            "image": "Images/Capuchin.webp",
             "globeTexture": "Images/CapuchinGlobe.png"
         },
         {
@@ -115,7 +115,7 @@
                 }
             ]
             ,
-            "image": "Images/SquirrelMonkey.jpg",
+            "image": "Images/SquirrelMonkey.webp",
             "globeTexture": "Images/SquirrelMonkeyGlobe.png"
         },
         {
@@ -135,7 +135,7 @@
                     "Bonnet Macaque": "The bonnet macaque is found in southern India. They have a gray-brown fur and a distinctive tuft of hair on their head that resembles a bonnet."
                 }
             ],
-            "image": "Images/Macaque.jpg",
+            "image": "Images/Macaque.webp",
             "globeTexture": "Images/MacaqueGlobe.png"
         },
         {
@@ -155,7 +155,7 @@
                     "Hamadryas Baboon": "The Hamadryas Baboon (Papio hamadryas) is found in the Horn of Africa and the Arabian Peninsula. They are distinctive for their long, upright mane of hair and their complex social structure, which includes large harems of females that are guarded by a single male."
                 }
             ],
-            "image": "Images/Baboon.jpg",
+            "image": "Images/Baboon.webp",
             "globeTexture": "Images/BaboonGlobe.png"
         }
         

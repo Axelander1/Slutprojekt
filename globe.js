@@ -27,7 +27,7 @@ function loadGlobe(data) {
 
   renderer.setPixelRatio(window.devicePixelRatio);
   if (window.innerWidth > 1200) {
-    renderer.setSize(window.innerWidth*0.27, window.innerWidth*0.27);
+    renderer.setSize(window.innerWidth*0.26, window.innerWidth*0.26);
   }
   else {
     renderer.setSize(window.innerWidth*0.8, window.innerWidth*0.8)
@@ -95,7 +95,7 @@ function loadGlobe(data) {
       renderer.setSize(window.innerWidth*0.8, window.innerWidth*0.8);
     }
     else if (needResize) {
-      renderer.setSize(window.innerWidth * 0.27, window.innerWidth * 0.27)
+      renderer.setSize(window.innerWidth * 0.26, window.innerWidth * 0.26)
     }
   }
 

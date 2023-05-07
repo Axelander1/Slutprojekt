@@ -61,10 +61,10 @@ function fillFrontPage(data) {
       
       <a href="facts.html" class = "card-container">
       <img class = "card-image" src="${element.image}" alt = "monkey ">
-      <div class = "card-text">
+      
           <h3 class = "card-title">${element.name}</h3>
           <h5 class = "card-scientific-name">${element.scientific}</h5>
-      </div>
+      
       </a>
       `
 
@@ -90,7 +90,7 @@ function searchFunction() {
   console.log(apesFound);
 
   monkeyData.monkey.forEach((element) => {
-    if (element.name.includes(searchbarText) && searchbarText.length > 0) {
+    if ((element.name.toLowerCase()).includes(searchbarText.toLowerCase()) && searchbarText.length > 0) {
       console.log("Found");
 
       if (!apesFound.includes(element.name)) {
@@ -110,7 +110,10 @@ function searchFunction() {
         apesFound.push(element.name);
       }
     }
-  });
+  }
+  
+  
+  );
 
   
 
@@ -126,6 +129,21 @@ function searchFunction() {
       searchResultContainer.removeChild(searchResults[i])
     }
   }
+
+  currentSearchResultChildElements = document.querySelectorAll(".search-result");
+
+  for (let i = 0; i < searchResultContainer.childElementCount; i++) {
+    if (i == 0) {
+      currentSearchResultChildElements[i].style.borderRadius = "10px 10px 0px 0px"
+    }
+    else if (i < searchResultContainer.childElementCount-1) {
+      currentSearchResultChildElements[i].style.borderRadius = "0px"
+    }
+    else {
+      currentSearchResultChildElements[i].style.borderRadius = "0px 0px 10px 10px"
+    }
+  }
+
   updateEventListener();
 }
 
@@ -133,9 +151,7 @@ function searchFunction() {
 
 function fillPage(data) {
   var informationContainer = document.querySelector("#information-text-container")
-  var title = document.querySelector("#monkey-title")
-  var scientificName = document.querySelector("#monkey-title-scientific")
-  var image = document.querySelector("#monkey-image")
+  var imageColumn = document.querySelector("#image-column")
   console.log(data)
 
   if (informationContainer) {
@@ -147,10 +163,13 @@ function fillPage(data) {
     data.monkey.forEach(monkey => {
       if(chosenMonkey == monkey.name) {
 
-        image.src = `${monkey.image}`
-
-        title.innerHTML = monkey.name
-        scientificName.innerHTML = monkey.scientific
+        imageColumn.innerHTML = `
+          <h1 id = "monkey-title">${monkey.name}</h1>
+          <h3 id = "monkey-title-scientific">${monkey.scientific}</h3>
+          <!--Bildens source fylls på när sidan laddas-->
+          <!--Placerad inom en button-tagg så att användaren kan trycka på den för att förstora bilden-->
+          <img id="monkey-image" src = "${monkey.image}" alt = "The ape" >
+        `
 
         informationContainer.innerHTML = `
         <div class = "text-category">
@@ -205,9 +224,26 @@ function fillPage(data) {
         }})
       }
     }
-  
 
+
+    /*Byter ut bilden mot en lite större för mobiler, då den annars blev så pass liten att den i stort sett inte gick att se*/ 
+function setImageSize() {
+  console.log("hej")
+  var frontImage = document.querySelector("#front-image")
+  if (frontImage) {
+    if (window.innerWidth > 600) {
+      frontImage.src = "./Images/robin-canfield-1JvZeqNd5vI-unsplash-copy.webp"
+    }
+    else {
+      frontImage.src = "./Images/robin-canfield-1JvZeqNd5vI-unsplash.jpg"
+    }
+  }
+  
+}
+  
+window.addEventListener("resize", setImageSize)   
 
 
 
 fillPage()
+setImageSize()

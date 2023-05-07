@@ -16,9 +16,25 @@ h1{
 
 
 
+
+/*Ger faktasidan sin bakgrundsbild*/
 .facts {
-    background-image: url("./Images/robin-canfield-1JvZeqNd5vI-unsplash-copy.jpg")
+    background-image: url("./Images/robin-canfield-1JvZeqNd5vI-unsplash-copy.webp")
 }
+
+#globe-large-container {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(29, 29, 29, 0.55);
+
+    z-index: 2;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Regler för containern på förstasidan, där sidans titel och bilden på apan finns*/
 #front-container {
     width: 100%;
 
@@ -28,6 +44,7 @@ h1{
     flex-direction: column;
 }
 
+/*Texten på förstasidan*/
 #front-text {
     font-size: 60px;
     padding: 1% 5% 1% 5%;
@@ -36,10 +53,12 @@ h1{
     background-color: white;
 }
 
+/*Bilden på förstasidan*/
 #front-image {
     width: 100%;
 }
 
+/*Containern som innehåller sökmenyn och resultaten av varje sökning*/
 #searchbar-container {
     width: 30%;
 
@@ -50,19 +69,23 @@ h1{
     gap: 8px;
     border-radius: 16px;
 
-    overflow: hidden;
+ 
+
     
 }
 
+/*Används för att ge searchbar-containern en position*/
 #searchbar-position {
     position:fixed;
     top: 1.5%;
     width: 100vw;
+    z-index: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/*Själva sökmenyn*/
 #searchbar {
     width: 100%;
     height: 30px;
@@ -71,18 +94,21 @@ h1{
     font-size: 1.2rem;  
 
     z-index: 0;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0)
+    box-shadow: 1px 3px 0px 2px rgba(0, 0, 0, 0.375);
+ 
 }
 
+/*Containern som innehåller resultaten av varje sökning*/
 #searchbar-result-container {
     width: 100%;
     border-radius: 16px;
-    overflow: hidden;
-    z-index: 0;
-
-    filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.75))
+    
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.75);
+    
+    
 }
 
+/* Definerar hur varje sökresultat ska se ut (alltså bilden och texten som visas för varje apa som hittas)*/
 .search-result {
     background-color: white;
     
@@ -92,8 +118,20 @@ h1{
     align-items: flex-start;
     gap: 4%;
 
+    overflow:hidden;
+
 }
 
+/* Dessa två läggs till till det första respektive sista sökresultat, för att ge hela rutan rundade hörn. Overflow:hidden funkar inte här, då detta tar bort box-shadown.*/
+.search-result-top {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.search-result-bottom {
+    border-radius: 0px 0px 10px 10px;
+}
+
+/*Container för texten som visas för varje sökresultat, och även reglerna för texten (dvs tar bort den jävla marginen som sätts på den)*/
 .search-result-text-container {
     margin-top: 1%;
 }
@@ -102,16 +140,17 @@ h1{
     margin: 0;
     color: black;
 }
-
+/*Ger bilden på varje apa en viss storlek*/
 .search-result-image {
     width: 125px;
-    border-radius: 0px 0px 0px 10px;
 }
 
+/*Home-knappen*/
 .nav-icon {
     width: 100%;
 }
 
+/*Regler för home-knappen*/
 #nav-buttons {
     position: fixed;
     width: 30px;
@@ -135,7 +174,7 @@ h1{
 
 
 
-
+/*Yttre containern som innehåller alla kort som leder till fakta-sidan, främst för att definerar en storlek*/
 #category-container {
     margin-top: 16%;
 
@@ -143,6 +182,7 @@ h1{
     justify-content: center;
 }
 
+/*Själva korten*/
 .card-container {
     border-radius: 12px;
     margin-top: 1%;
@@ -160,6 +200,7 @@ h1{
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.697);
 }
 
+/*Definerar hur korten ska positioneras med flexbox*/
 #category-card-container {
     width: 86%;
 
@@ -169,11 +210,7 @@ h1{
     gap: 12px;
 }
 
-.card-text {
-    margin: 0;
-    text-decoration: none;
-}
-
+/*Titeln i korten*/
 .card-title {
     margin: 0;
     text-decoration: none;
@@ -182,6 +219,7 @@ h1{
     
 }
 
+/*Vetenskapliga namnet*/
 .card-scientific-name {
     margin-top: 4px;
     margin-left: 1%;
@@ -189,6 +227,7 @@ h1{
     text-decoration: none;
 }
 
+/*Bilden */
 .card-image {
     max-width: 300px;
     border-radius: 10px;
@@ -197,6 +236,7 @@ h1{
 
 /* Här är alla styles som används på faktasidan */
 
+/*Används för att positionera resten av huvudinnehållet på fakta-sidan (alltså allt utom hem-knappen och sökmenyn*/
 #main {
     width: 100%;
 
@@ -204,6 +244,7 @@ h1{
     justify-content: center;
 }
 
+/*Innehåller alla information om apan*/
 #info-container {
     background-color: white;
     width: 90%;
@@ -215,7 +256,7 @@ h1{
 }
 
 
-
+/*Den rad längst upp, som innehåller bilden och globen, eftersom denna har annan flex-box struktur än den nedre texten*/
 #info-top-row {
     display: flex;
     flex-wrap: wrap;
@@ -225,7 +266,7 @@ h1{
     width: 100%;
     height: auto;
 }
-
+/*Definerar regler för texten på fakta-sidan*/
 #information-text-container {
     width: 88%;
     margin-left: 0.5%;
@@ -248,21 +289,29 @@ h1{
 #subspecies-container h4 {
     margin-left: 16px;
 }
-
+/*Globen*/
 #rotating-globe {
-    background-color: white;
-   
+
     cursor: move;
     margin-right: 1%;
     margin-top: 1%;
 }
 
+/* Bilden på apan på fakta-sidan*/
 #monkey-image {
     width: 100%;
     height: fit-content;
     border-radius: 10px;
 }
 
+/*Definerar regler för hur bilden ska se ut när användaren trycker på denna*/
+#monkey-image-large {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+
+/* Bestämmer alla regler för kolumen som innehåller bilden, och namnet på apan */
 #image-column {
     width: 37.5%;
     min-width: 500px;
@@ -277,6 +326,8 @@ h1{
     font-size: 1rem;
 }
 
+/*Definerar alla regler för kolumnen med globen och texten till denna*/
+
 #globe-column {
     display: flex;
     flex-direction: column;
@@ -288,13 +339,13 @@ h1{
     font-size: 0.6rem;
 }
 
-
+/* "Footern" */
 #footer {
     width: 100%;
-    height: 120px;
+    height: 160px;
     background-color: rgb(246, 246, 246);
-    margin-top: 4%;
-}
+    margin-top: 4%;}
+
 
 @media screen and (max-width: 1000px) {
     #info-top-row {
@@ -328,7 +379,15 @@ h1{
 
     #searchbar-container {
         width: 50%;
-        min-width: 220px;
+        min-width: 200px;
+    }
+
+    #searchbar-result-container {
+        font-size: 0.7rem;
+    }
+
+    .search-result-image {
+        width: 100px;
     }
 
     #front-image {
