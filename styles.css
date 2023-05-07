@@ -41,10 +41,6 @@ h1{
 }
 
 #searchbar-container {
-    position: fixed;
-    top: 2%;
-    left: 34.5vw;
-
     width: 30%;
 
 
@@ -56,6 +52,15 @@ h1{
 
     overflow: hidden;
     
+}
+
+#searchbar-position {
+    position:fixed;
+    top: 1.5%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #searchbar {
@@ -75,7 +80,7 @@ h1{
     overflow: hidden;
     z-index: 0;
 
-    box-shadow: 0px 0px 10px rgb(0, 0, 0)
+    filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.75))
 }
 
 .search-result {
@@ -118,8 +123,14 @@ h1{
     background-color: white;
     z-index: 1;
 
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75)
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
+    transition: 0.2s;   
 
+}
+
+#nav-buttons:hover {
+    box-shadow: 0px 2px 12px rgb(0, 0, 0);
+    
 }
 
 
@@ -186,14 +197,14 @@ h1{
 
 /* Här är alla styles som används på faktasidan */
 
-#info-container {
+#main {
     width: 100%;
 
     display: flex;
     justify-content: center;
 }
 
-#info-outline {
+#info-container {
     background-color: white;
     width: 90%;
     padding: 1%;
@@ -316,9 +327,8 @@ h1{
     }
 
     #searchbar-container {
-        width: 70%;
-        margin-left: -30px;
-        
+        width: 50%;
+        min-width: 220px;
     }
 
     #front-image {

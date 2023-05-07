@@ -16,7 +16,9 @@
                     "Eastern Chimpanzees":"Eastern Chimpanzees (Pan troglodytes schweinfurthii) are found in Kenya, Tanzania, and Uganda. They have a golden-brown fur on their back and are the largest chimpanzee subspecies, with males weighing up to 150 pounds.",
                     "Bonobos":"Bonobos (Pan paniscus) are found only in the Democratic Republic of Congo. They have a slender build and a distinctive dark face with a parting in the middle. Bonobos are also known for their sexual behavior, which is more varied and frequent than other great apes."
                 }
-            ]
+            ],
+            "image": "Images/Chimpanzee.jpg",
+            "globeTexture": "Images/ChimpanzeeGlobe.png"
         },
         {
             
@@ -33,7 +35,9 @@
                     "Eastern Gorillas": "Eastern Gorillas (Gorilla beringei) are found in Rwanda, Uganda, and the Democratic Republic of Congo. There are two subspecies of eastern gorilla: the mountain gorilla and the eastern lowland gorilla. They have longer hair than western gorillas and a distinctively shaped head. Eastern gorillas are critically endangered, with only around 1,000 mountain gorillas and 5,000 eastern lowland gorillas remaining in the wild.",
                     "Western Gorillas": "Western Gorillas (Gorilla gorilla) are found in Cameroon, Gabon, Congo, and Equatorial Guinea. There are two subspecies of western gorilla: the western lowland gorilla and the Cross River gorilla. They have shorter hair than eastern gorillas and a more rounded head. Western gorillas are also critically endangered, with only around 100,000 individuals remaining in the wild."
                 }
-            ]
+            ],
+            "image": "Images/Gorilla.jpg",
+            "globeTexture": "Images/GorillaGlobe.png"
         },
         {
             "id": 2,
@@ -49,7 +53,9 @@
                 "Sumatran Orangutans": "Sumatran Orangutans (Pongo abelii) are found only on the island of Sumatra in Indonesia. They have a darker coat of fur than Bornean orangutans and a longer face.",
                 "Bornean Orangutans": "Bornean Orangutans (Pongo pygmaeus) are found on the island of Borneo in Southeast Asia. They have a lighter coat of fur than Sumatran orangutans and a shorter face."
               }
-            ]
+            ],
+            "image": "Images/Orangutan.jpg",
+            "globeTexture": "Images/OrangutanGlobe.png"
         },
         {
             "id": 3,
@@ -67,7 +73,9 @@
                     "White-handed Gibbon":"White-handed Gibbons (Hylobates lar) are also found in Southeast Asia. They have white fur on their hands and feet and a black face.",
                     "Hoolock Gibbon":"Hoolock Gibbons (Hoolock spp.) are found in northeastern India, Bangladesh, and Myanmar. They have a lighter-colored fur than other Gibbons and a distinctive brow ridge."
                 }
-            ]
+            ],
+            "image": "Images/Gibbon.jpg",
+            "globeTexture": "Images/GibbonGlobe.png"
         },
         {
             "id": 4,
@@ -85,7 +93,9 @@
                     "Robust Tufted Capuchin":"Robust Tufted Capuchins (Sapajus robustus) are found in Brazil. They have a more robust skull and larger teeth than other capuchin species. They are also known for their use of stone tools to crack open nuts.",
                     "Wedge-Capped Capuchin":"Wedge-Capped Capuchins (Sapajus nigritus) are found in Brazil, Paraguay, and Argentina. They have a distinctive wedge-shaped cap of hair on their head and are known for their intelligence and problem-solving abilities."
                 }
-            ]
+            ],
+            "image": "Images/Capuchin.jpg",
+            "globeTexture": "Images/CapuchinGlobe.png"
         },
         {
             "id": 5,
@@ -104,6 +114,9 @@
                     "Central American Squirrel Monkey": "The Central American Squirrel Monkey (Saimiri oerstedii) is found in Central America, ranging from Honduras to Panama. They have a grayish-brown coat and a white or yellowish underbelly, similar to the common squirrel monkey."
                 }
             ]
+            ,
+            "image": "Images/SquirrelMonkey.jpg",
+            "globeTexture": "Images/SquirrelMonkeyGlobe.png"
         },
         {
             "id": 6,
@@ -121,7 +134,9 @@
                     "Pig-Tailed Macaque": "The pig-tailed macaque is found in Southeast Asia, including countries such as Thailand and Indonesia. They have a short tail, a black face, and a tuft of hair on their head that resembles a pigtail.",
                     "Bonnet Macaque": "The bonnet macaque is found in southern India. They have a gray-brown fur and a distinctive tuft of hair on their head that resembles a bonnet."
                 }
-            ]
+            ],
+            "image": "Images/Macaque.jpg",
+            "globeTexture": "Images/MacaqueGlobe.png"
         },
         {
             "id": 7,
@@ -139,7 +154,9 @@
                     "Yellow Baboon": "The Yellow Baboon (Papio cynocephalus) is found in eastern Africa and is known for its yellow-brown coat and distinctive hairless face. They live in large troops that can range in size from 10 to 200 individuals and are led by a dominant male.",
                     "Hamadryas Baboon": "The Hamadryas Baboon (Papio hamadryas) is found in the Horn of Africa and the Arabian Peninsula. They are distinctive for their long, upright mane of hair and their complex social structure, which includes large harems of females that are guarded by a single male."
                 }
-    ]
+            ],
+            "image": "Images/Baboon.jpg",
+            "globeTexture": "Images/BaboonGlobe.png"
         }
         
     ]

@@ -9,6 +9,7 @@
 
     <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
 
+    <!--Importerar three.js och addons till denna-->
     <script type="importmap">
     {
         "imports": {
@@ -26,22 +27,28 @@
     
 
     <!-- Skapar sökfunktionen -->
-    <div id = "searchbar-container"> 
-        <input type="search" id="searchbar">
-        <div id = "searchbar-result-container"></div>
+    <div id = "searchbar-position">
+        <div id = "searchbar-container"> 
+            <input type="search" id="searchbar">
+            <div id = "searchbar-result-container"></div>
+        </div>
     </div>
+    
     
 
     <!-- Inom denna finns bilden, globen och texten. -->
-    <!-- info-container används för att positionera info-outline, och info-outline innehåller alla andra delar-->
-    <div id = "info-container">
-        <div id = "info-outline">
+    <!-- main används för att positionera info-outline, och info-outline innehåller alla andra delar-->
+    <div id = "main">
+        <div id = "info-container">
             <div id = "info-top-row">
+                <!--Innehåller bilden av apan-->
                 <div id = "image-column">
                     <h1 id = "monkey-title"></h1>
                     <h3 id = "monkey-title-scientific"></h3>
-                    <img id="monkey-image" src = "Images/chimp-animal-zoo-monkey-wallpaper-preview.jpg" alt = "The ape">
+                    <!--Bildens source fylls på när sidan laddas-->
+                    <img id="monkey-image" src = "" alt = "The ape">
                 </div>   
+                <!--Kolumnen i vilken jag har globens canvas och förklarande text under denna-->
                 <div id = "globe-column">
                     <canvas id = "rotating-globe"></canvas>
                     <p>Areas that this species inhabits are marked in green</p>
@@ -53,6 +60,7 @@
         
     </div>
     
+    <!--Script placeras längst ner för att se till så att resten av hemsidan laddas innan dessa. Annars fick jag problem att vissa HTML element inte laddats när scripten försökte komma åt dessa-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="script.js"></script>
     <script src ="globe.js" type = "module"></script>

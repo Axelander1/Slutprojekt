@@ -60,7 +60,7 @@ function fillFrontPage(data) {
       cardContainer.innerHTML += `
       
       <a href="facts.html" class = "card-container">
-      <img class = "card-image" src="Images/Gombe_Stream_NP_Beute.jpg" alt = "monkey ">
+      <img class = "card-image" src="${element.image}" alt = "monkey ">
       <div class = "card-text">
           <h3 class = "card-title">${element.name}</h3>
           <h5 class = "card-scientific-name">${element.scientific}</h5>
@@ -98,7 +98,7 @@ function searchFunction() {
 
         var searchResult = `
           <a href="facts.html" class="search-result">
-            <img class="search-result-image" src="Images/Gombe_Stream_NP_Beute.jpg">
+            <img class="search-result-image" src="${element.image}">
             <div class="search-result-text-container">
               <h3 class="name">${element.name}</h3>
               <h5>${element.scientific}</h5>
@@ -135,6 +135,7 @@ function fillPage(data) {
   var informationContainer = document.querySelector("#information-text-container")
   var title = document.querySelector("#monkey-title")
   var scientificName = document.querySelector("#monkey-title-scientific")
+  var image = document.querySelector("#monkey-image")
   console.log(data)
 
   if (informationContainer) {
@@ -145,6 +146,8 @@ function fillPage(data) {
 
     data.monkey.forEach(monkey => {
       if(chosenMonkey == monkey.name) {
+
+        image.src = `${monkey.image}`
 
         title.innerHTML = monkey.name
         scientificName.innerHTML = monkey.scientific

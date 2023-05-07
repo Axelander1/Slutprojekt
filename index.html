@@ -21,10 +21,14 @@
     </a>
 
     <!-- Skapar sökfunktionen -->
-    <div id = "searchbar-container"> 
-        <input type="search" id="searchbar"> 
-        <div id = "searchbar-result-container"></div>       
+    <!--Position divven existerar för att kunna använda flexbox på searchbar-container, då detta gör responsivitet oändligt mycket enklare-->
+    <div id = "searchbar-position">
+        <div id = "searchbar-container"> 
+            <input type="search" id="searchbar"> 
+            <div id = "searchbar-result-container"></div>       
+        </div>
     </div>
+    
     
 
     <!-- Detta skapar containern som kommer att innehålla alla olika apor, uppdelade utifrån vilken grupp de tillhör -->
