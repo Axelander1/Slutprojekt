@@ -122,14 +122,6 @@ h1{
 
 }
 
-/* Dessa två läggs till till det första respektive sista sökresultat, för att ge hela rutan rundade hörn. Overflow:hidden funkar inte här, då detta tar bort box-shadown.*/
-.search-result-top {
-    border-radius: 10px 10px 0px 0px;
-}
-
-.search-result-bottom {
-    border-radius: 0px 0px 10px 10px;
-}
 
 /*Container för texten som visas för varje sökresultat, och även reglerna för texten (dvs tar bort den jävla marginen som sätts på den)*/
 .search-result-text-container {
@@ -300,7 +292,7 @@ h1{
 /* Bilden på apan på fakta-sidan*/
 #monkey-image {
     width: 100%;
-    height: fit-content;
+    height: auto;
     border-radius: 10px;
 }
 
